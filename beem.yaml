@@ -48,7 +48,7 @@ rest:
 
 command_line:
    - sensor:
-       command: 'token=$(curl https://api-x.beem.energy/beemapp/user/login -X POST -H "Content-Type: application/json" --data-raw "{\"email\":\"SAISIR ICI VOTRE MAIL BEEM\",\"password\":\"SAISIR ICI VOTRE MOT DE PASSE\"}" | jq .accessToken) && token=${token//\"} && echo $token && sed -i "s/\(beem_token:\)\(.*\)/\1 Bearer $token/" /config/secrets.yaml'
+       command: 'token=$(curl https://api-x.beem.energy/beemapp/user/login -X POST -H "Content-Type: application/json" --data-raw "{\"email\":\"YOUR_BEEM_EMAIL\",\"password\":\"YOUR_PASSWORD\"}" | jq .accessToken) && token=${token//\"} && echo $token && sed -i "s/\(beem_token:\)\(.*\)/\1 Bearer $token/" /config/secrets.yaml'
        name: beem_token
        scan_interval: 84600
 
