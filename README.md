@@ -9,6 +9,10 @@ This is based on @nicolinuxfr 's work (available on Gitlab https://gitlab.macg.i
 - ⚠ Do not create a new line "home assistant" or "packages" if they already exist, just add the beem package.
   
 3) Curl your Token :
-- Open a terminal and type : curl https://api-x.beem.energy/beemapp/user/login -X POST -H "Content-Type: application/json" --data-raw '{"email":"YOUR_EMAIL","password":"YOUR_PASSWORD"}'
+- Open a terminal and type :
+```
+ curl https://api-x.beem.energy/beemapp/user/login -X POST -H "Content-Type: application/json" --data-raw '{"email":"YOUR_EMAIL","password":"YOUR_PASSWORD"}'
+```
+
 - Copy the token : "accessToken":"YOUR_ACCESS_TOKEN"
 - In the file secrets.yaml add the lines for your token
