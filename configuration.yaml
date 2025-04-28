@@ -1,0 +1,3 @@
+homeassistant:
+  packages:
+    beem: !include beem.yaml
