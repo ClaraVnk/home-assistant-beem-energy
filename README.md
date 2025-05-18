@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ClaraVnk/home-assistant-beem-energy">
-    <img src="beem.png" alt="Logo" width="80" height="80">
+    <img src="beem.png" alt="Logo" width="200" height="80">
   </a>
 
   <h3 align="center">Beem Energy integration in Home Assitant energy Dashboard !</h3>
@@ -110,6 +110,10 @@ beem_token : Bearer YOUR_TOKEN_ACCESS
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+  <a href="https://github.com/ClaraVnk/home-assistant-beem-energy">
+    <img src="beem_dashboard.png">
+  </a>
 
 <!-- CONTRIBUTING -->
 ## Contributing
